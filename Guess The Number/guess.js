@@ -84,7 +84,3 @@ function endGame(){
     playGame=false;
     newGame();
 }
-
-
-
-console.log(number)
