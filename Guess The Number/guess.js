@@ -5,7 +5,8 @@ const remaining = document.querySelector(".remaining");
 const lorORhigh = document.querySelector(".lorORhigh");
 const results = document.querySelector(".result");
 const p=document.createElement("p");
-const guessNumber=document.querySelector("#inputValue")
+const guessNumber=document.querySelector("#inputValue");
+const check=document.querySelector("#btn");
 let prevGuess=[];
 let numGuess=1;
 let playGame=true;
@@ -76,7 +77,6 @@ function newGame(){
 function endGame(){
     guessNumber.value="";
     guessNumber.setAttribute('disabled',"");
-    const check=document.querySelector("#btn");
     check.setAttribute('disabled',"");
     p.classList.add('button')
     p.innerHTML=`<h2 id="newgame" style="background-color: red; cursor:pointer; width:200px; margin:auto;">Start New Game</h2>`;
