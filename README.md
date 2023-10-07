@@ -12,3 +12,6 @@ This folder contains all my JavaScript projects.
 
 ## Project 4: Guess The Number
 [Guess The Number](https://github.com/Abhishekk-B/JavaScript_Projects/tree/main/Guess%20The%20Number)
+
+## Project 5: Random Background Change
+[Random Background Change](https://github.com/Abhishekk-B/JavaScript_Projects/tree/main/Random%20Color%20Changer)
