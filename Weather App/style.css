@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Images/clouds.jpg");
+    background-size: cover;
+    background-repeat: repeat;}
+
+.main{
+    width: 28%;
+    border-radius: 12px;
+    padding: 20px 30px;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .2s ease-in-out;
+}
+
+.main:hover{
+    transform: scale(1.1);
+}
+
+.main h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.first input{
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: #8CC0DE;
+    padding: 4px 10px;
+    width: 100%;
+    border: none;
+    box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    height: 50px;
+    outline: none;
+    -webkit-transition: .18s ease-out;
+  -moz-transition: .18s ease-out;
+  -o-transition: .18s ease-out;
+  transition: .18s ease-out;
+  color: #000;
+}
+
+.first input:hover {
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+  }
+  
+.first input:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+.first button{
+    padding: 12px;
+    font-size: 20px;
+    background-color: #FE0000;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    right: 0;
+    transition: .25s ease-out;
+    line-height: 27px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: #FE0000;
+}
+
+.first button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.1);
+}
+
+.display{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    display: none;
+    
+}
+
+.display .weather-img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.details{
+    background-color: #4b515d;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 20px;
+}
+.display h3{
+    /* font-size: 30px; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-bottom: 5px;
+}
+.error{
+    display: none;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.info{
+    display: none;
+    justify-content: space-between;
+    /* border:2px solid red; */
+    padding: 10px 5px;
+}
+.humidity, .wind{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 165px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .2s ease-in-out;
+}
+
+.humidity:hover{
+    transform: scale(1.1);
+}
+
+.wind:hover{
+    transform: scale(1.1);
+}
