@@ -6,7 +6,7 @@ let err=document.querySelector(".error")
 let wImage=document.querySelector(".weather-img")
 
 
-const apiKey='30082ec9b647a4f8ea38c4cb20236f86';
+const apiKey='';
 const url='https://api.openweathermap.org/data/2.5/weather?units=metric&q='
 
 async function getData(value){
