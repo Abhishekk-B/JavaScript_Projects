@@ -15,3 +15,6 @@ This folder contains all my JavaScript projects.
 
 ## Project 5: Random Background Change
 [Random Background Change](https://github.com/Abhishekk-B/JavaScript_Projects/tree/main/Random%20Color%20Changer)
+
+## Project 6: Weather App
+[Weather App](https://github.com/Abhishekk-B/JavaScript_Projects/tree/main/Weather%20App)
